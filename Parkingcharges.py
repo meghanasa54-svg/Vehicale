@@ -4,6 +4,7 @@ def parking_fee(vehicle, hours):
     return RATES[vehicle.lower()] * hours
 
 vehicle = input("Vehicle type (two-wheeler/four-wheeler/heavy): ")
+number = input("vechicale number:")
 hours = float(input("Parking duration (hours): "))
 print("Vehicle type:", vehicle)
 print("Duration:", hours, "hours")
